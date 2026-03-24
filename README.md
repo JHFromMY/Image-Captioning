@@ -1,7 +1,7 @@
 # Image Captioning
 An application that help generate caption for a list of selected travel images so that user can reduce caption creation effort when they post them in social media.
 
-# 0_Setup(Anaconda-Kernel Setting)
+# 0_Setup
 ## Computer Selection
 0. Make sure your purchased computer had support GPU and native window.
 
