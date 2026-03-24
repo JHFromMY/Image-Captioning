@@ -1,4 +1,9 @@
 # Image Captioning
-Create an application to generate caption for better understand on an image.
+An application that help generate caption for a list of selected travel images so that user can reduce caption creation effort when they post them in social media.
 
-# Resource
+# Setup
+
+# Data
+
+# Model
+## Data
