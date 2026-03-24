@@ -1,2 +1,4 @@
-# Image-Captioning
-Image Captioning with EfficientNet Transformer
+# Image Captioning
+Create an application to generate caption for a social mdeia post
+
+# Resource
