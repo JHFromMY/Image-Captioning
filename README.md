@@ -23,8 +23,8 @@ Downloads/
     │   │           └── ....jpg
     │   └── results.csv
     ├── 2_Model/
-    |   └──LSTM
-    |       └──ImageCaption30K_LSTM.ipynb
+    |   ├── LSTM
+    |   |   └──ImageCaption30K_LSTM.ipynb
     |   └──Transformer
     |       └──ImageCaption30K_Transformer.ipynb
     └──README.md
