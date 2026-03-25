@@ -9,7 +9,7 @@ Make sure your purchased computer had support GPU and native Window.
 1. Install this github repository in your local device.
 2. Make sure to change file structure as such:
 
-.
+. 
 ├── Downloads
 |    ├──ImageCaption
 |        ├──0_Setup
