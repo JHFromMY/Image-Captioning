@@ -59,4 +59,6 @@ In case need to remove the external kernel:
 2. GloVe: Global Vectors for Word Representation (https://nlp.stanford.edu/projects/glove/) for LSTM embedding purpose
 
 # 2_Model
-## Data
+## LSTM
+
+## Transformer
