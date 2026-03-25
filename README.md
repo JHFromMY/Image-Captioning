@@ -39,8 +39,7 @@ Downloads/
 ## Kernel Setup
 1. Then, install all dependency, ```pip install -r C:/Users/User/Downloads/ImageCaption/0_Setup/requirements.txt```
 2. Then, create an external kernel, ```python -m ipykernel install --user --name=ImageCaption --display-name "ImageCaption"```
-3. Download 'ImageCaption30K_LSTM.ipynb' and loacte at ```C:\Users\User\Downloads\ImageCaption\2_Model\LSTM```
-4. Open Jupter Notebook and select "ImageCaption" kernel
+3. Open ```C:\Users\User\Downloads\ImageCaption\2_Model\LSTM\ImageCaption30K_LSTM.ipynb``` as Jupyter Notebook and then select "ImageCaption" kernel
 
 In case need to add/update the external kernel:
 1. Open Anancoda Prompt
