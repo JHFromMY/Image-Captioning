@@ -13,6 +13,7 @@ Make sure your purchased computer had support GPU and native Window.
 Downloads/
 └── ImageCaption/
     ├── 0_Setup/
+    |   └──requirements.txt
     ├── 1_Data/
     │   ├── glove.2024.wikigiga.300d.zip/
     │   │   └── wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt
@@ -21,19 +22,24 @@ Downloads/
     │   │       └── flickr30k_images/
     │   │           └── ....jpg
     │   └── results.csv
-    └── 2_Model/
+    ├── 2_Model/
+    |   └──LSTM
+    |       └──ImageCaption30K_LSTM.ipynb
+    |   └──Transformer
+    |       └──ImageCaption30K_Transformer.ipynb
+    └──README.md
 ```
 
 ## Virtual Envitronment Setup
 1. Install Anaconda ```https://www.anaconda.com/download```
-2. Open Ananconda Prompt to check CUDA and , 'nvidia-smi', else install from https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
-3. Then, create an virtual environment, 'conda create -n ImageCaption python=3.10'
-4. Then, activate the environment, 'conda activate ImageCaption'
+2. Open Ananconda Prompt to check CUDA and , ```nvidia-smi```, else install from ```https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local```
+3. Then, create an virtual environment, ```conda create -n ImageCaption python=3.10```
+4. Then, activate the environment, ```conda activate ImageCaption```
 
 ## Kernel Setup
-1. Then, install all dependency, 'pip install -r C:/Users/User/Downloads/ImageCaption/0_Setup/requirements.txt'
-2. Then, create an external kernel, 'python -m ipykernel install --user --name=ImageCaption --display-name "ImageCaption"'
-3. Download 'ImageCaption30K_LSTM.ipynb' and loacte at 'C:\Users\User\Downloads\ImageCaption\2_Model\LSTM'
+1. Then, install all dependency, ```pip install -r C:/Users/User/Downloads/ImageCaption/0_Setup/requirements.txt```
+2. Then, create an external kernel, ```python -m ipykernel install --user --name=ImageCaption --display-name "ImageCaption"```
+3. Download 'ImageCaption30K_LSTM.ipynb' and loacte at ```C:\Users\User\Downloads\ImageCaption\2_Model\LSTM```
 4. Open Jupter Notebook and select "ImageCaption" kernel
 
 In case need to add/update the external kernel:
