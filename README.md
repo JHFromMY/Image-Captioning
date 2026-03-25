@@ -3,7 +3,7 @@ An application that help generate caption for a list of selected travel images s
 
 # 0_Setup
 ## Computer Selection
-0. Make sure your purchased computer had support GPU and native window.
+Make sure your purchased computer had support GPU and native Window.
 
 ## Virtual Envitronment Setup
 1. Install Anaconda (https://www.anaconda.com/download).
@@ -12,17 +12,16 @@ An application that help generate caption for a list of selected travel images s
 4. Then, activate the environment, 'conda activate ImageCaption'
 
 ## Kernel Setup
-5. Then, move directory, 'cd C:\Users\User\Downloads\ImageCaption\0_Setup'
-6. Then, install all dependency, 'pip install -r requirements.txt'
-7. Then, install torch, 'pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118'
-8. Then, create an external kernel, 'python -m ipykernel install --user --name=ImageCaption --display-name "ImageCaption"'
-9. Download 'ImageCaption30K_InceptionV3_LSTM.ipynb' and loacte at 'C:\Users\User\Downloads\ImageCaption\2_Model\InceptionV3_LSTM'
-10. Open Jupter Notebook and select "ImageCaption" kernel
+1. Then, install all dependency, 'pip install -r C:/Users/User/Downloads/ImageCaption/0_Setup/requirements.txt'
+2. Then, create an external kernel, 'python -m ipykernel install --user --name=ImageCaption --display-name "ImageCaption"'
+3. Download 'ImageCaption30K_LSTM.ipynb' and loacte at 'C:\Users\User\Downloads\ImageCaption\2_Model\LSTM'
+4. Open Jupter Notebook and select "ImageCaption" kernel
 
 In case need to add/update the external kernel:
 1. Open Anancoda Prompt
 2. Then, activate the environment, 'conda activate ImageCaption'
 3. Then, add/modify using 'pip install' or 'pip uninstall'
+4. Restart kernel in Jupyter Notebook
 
 In case need to remove the external kernel:
 1. Open Anancoda Prompt
