@@ -1,1 +1,13 @@
-
+ipykernel
+jupyter
+tensorflow_hub
+tensorflow<2.11
+numpy<2
+matplotlib
+pandas
+seaborn
+scikit-learn
+tqdm
+pydot
+nltk
+plotly
