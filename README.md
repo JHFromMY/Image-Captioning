@@ -10,18 +10,18 @@ Make sure your purchased computer had support GPU and native Window.
 2. Make sure to change file structure as such:
 
 . 
-├── Downloads
-|    ├──ImageCaption
-|        ├──0_Setup
-|        ├──1_Data
-|            ├──glove.2024.wikigiga.300d.zip
-|                ├──wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt
-|            ├──IC30K.zip
-|                ├──flickr30k_images
-|                    ├──flickr30k_images
-|                        ├──....jpg
+├── Downloads/
+|    ├──ImageCaption/
+|        ├──0_Setup/
+|        └──1_Data/
+|            └──glove.2024.wikigiga.300d.zip/
+|                └──wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt
+|            └──IC30K.zip/
+|                └──flickr30k_images/
+|                    └──flickr30k_images/
+|                        └──....jpg
 |                    results.csv
-|        ├──2_Model
+|        └──2_Model
 
 ## Virtual Envitronment Setup
 1. Install Anaconda (https://www.anaconda.com/download).
