@@ -31,7 +31,7 @@ In case need to remove the external kernel:
 
 # 1_Data
 1. Flickr30k dataset (https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) for medium-sized image captioning, IC30K.zip
-2. GloVe: Global Vectors for Word Representation (https://nlp.stanford.edu/projects/glove/) for embedding purpose, 'glove.2024.wikigiga.300d.zip'
+2. GloVe: Global Vectors for Word Representation (https://nlp.stanford.edu/projects/glove/) for LSTM embedding purpose, 'glove.2024.wikigiga.300d.zip'
 
 # 2_Model
 ## Data
