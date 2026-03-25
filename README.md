@@ -32,7 +32,7 @@ Downloads/
 
 ## Virtual Envitronment Setup
 1. Install Anaconda ```https://www.anaconda.com/download```
-2. Open Ananconda Prompt to check CUDA and , ```nvidia-smi```, else install from ```https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local```
+2. Open Ananconda Prompt to check CUDA and , ```nvidia-smi```, else install from (https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
 3. Then, create an virtual environment, ```conda create -n ImageCaption python=3.10```
 4. Then, activate the environment, ```conda activate ImageCaption```
 
