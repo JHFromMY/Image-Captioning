@@ -9,6 +9,7 @@ Make sure your purchased computer had support GPU and native Window.
 1. Install this github repository in your local device.
 2. Make sure to change file structure as such:
 
+'''
 Downloads/
 └── ImageCaption/
     ├── 0_Setup/
@@ -21,6 +22,7 @@ Downloads/
     │   │           └── ....jpg
     │   └── results.csv
     └── 2_Model/
+'''
 
 ## Virtual Envitronment Setup
 1. Install Anaconda (https://www.anaconda.com/download).
