@@ -33,8 +33,10 @@ Downloads/
             ├── CaptionLength_Transformer.png
             ├── Dataset_LSTM.png
             ├── Dataset_Transformer.png
-            ├── Result_LSTM.png
-            ├── Result_Transformer.png
+            ├── Result1_LSTM.png
+            ├── Result2_LSTM.png
+            ├── Result1_Transformer.png
+            ├── Result2_Transformer.png
             ├── Training_LSTM.png
             ├── Training_Transformer.png
             ├── WordOccurrences_LSTM.png
