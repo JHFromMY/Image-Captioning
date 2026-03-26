@@ -117,7 +117,9 @@ In case need to remove the external kernel:
 ![Screenshot](./Screenshots/Training_LSTM.png)
 
 #### Result
-![Screenshot](./Screenshots/Result_LSTM.png)
+![Screenshot](./Screenshots/Result1_LSTM.png)
+
+![Screenshot](./Screenshots/Result2_LSTM.png)
 
 Cons:
 - Consume more time on image extraction and training
@@ -133,7 +135,9 @@ Pros:
 ![Screenshot](./Screenshots/Training_Transformer.png)
 
 #### Result
-![Screenshot](./Screenshots/Result_Transformer.png)
+![Screenshot](./Screenshots/Result1_Transformer.png)
+
+![Screenshot](./Screenshots/Result2_Transformer.png)
 
 Cons:
 - Bad at multiple word learning
