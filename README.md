@@ -113,6 +113,12 @@ In case need to remove the external kernel:
 
 ## Performance
 ### LSTM
+#### Training
+![Screenshot](./Screenshots/Training_LSTM.png)
+
+#### Result
+![Screenshot](./Screenshots/Result_LSTM.png)
+
 Cons:
 - Consume more time on image extraction and training
 - The lowest accuracy (2%)
@@ -123,6 +129,12 @@ Pros:
 - Better generalization with some fine tuning on label smoothing, image augmentation, embedding, learning rate, dense layer and dropout.
 
 ### Transformer
+#### Training
+![Screenshot](./Screenshots/Training_Transformer.png)
+
+#### Result
+![Screenshot](./Screenshots/Result_Transformer.png)
+
 Cons:
 - Bad at multiple word learning
 - The loss is higher than LSTM (13.5)
