@@ -33,6 +33,10 @@ Downloads/
             ├── CaptionLength_Transformer.png
             ├── Dataset_LSTM.png
             ├── Dataset_Transformer.png
+            ├── Result_LSTM.png
+            ├── Result_Transformer.png
+            ├── Training_LSTM.png
+            ├── Training_Transformer.png
             ├── WordOccurrences_LSTM.png
             └── WordOccurrences_Transformer.png
 ```
@@ -92,8 +96,40 @@ In case need to remove the external kernel:
 ![Screenshot](./Screenshots/WordOccurrences_Transformer.png)
 
 ## Data Splitting
-| Header 1 | Header 2 |
-| :---: | :---: |
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
+|  | LSTM | Transformer |
+| :---: | :---: | :---: |
+| Train | 75% |  | 78% |
+| Validation | 15% | 20% |
+| Test | 10% | 2% |
+
+## Build
+### LSTM
+- LSTM is the baseline and the simplest model to explore.
+- Using EfficientNet convolutional neural network (CNN) on LSTM with InceptionV3 as input using image features and embedding with GLove Dataset.
+
+### Transformer
+- Transfomer has stated a better result compare to LSTM, so I explore it after LSTM.
+- Using EfficientNet convolutional neural network (CNN) on decoded and encoded image with positional embedding.
+
+## Performance
+### LSTM
+Cons:
+- Consume more time on image extraction and training
+- The lowest accuracy (2%)
+- Bad at single and multiple word learning
+
+Pros:
+- The loss is low (3.5)
+- Better generalization with some fine tuning on label smoothing, image augmentation, embedding, learning rate, dense layer and dropout.
+
+### Transformer
+Cons:
+- Bad at multiple word learning
+- The loss is higher than LSTM (13.5)
+
+Pros:
+- Better at single word learning compare to LSTM
+- Consume lesser time on image encode and decode and training time is shorter compare to LSTM
+- Better accuracy than LSTM (40%)
+- Better generalization with some fine tuning on label smoothing, image augmentation, embedding, learning rate, dense layer and dropout.
 
