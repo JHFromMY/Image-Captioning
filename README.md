@@ -27,7 +27,14 @@ Downloads/
     |   |   └──ImageCaption30K_LSTM.ipynb
     |   └──Transformer
     |       └──ImageCaption30K_Transformer.ipynb
-    └──README.md
+    ├── README.md
+    └── Screenshot
+            ├── WordOccurrences_Transformer.png
+            ├── Dataset_Transfomer.png
+            ├── CaptionLength_Transfomer.png
+            ├── WordOccurrences_LSTM.png
+            ├── Dataset_LSTM.png
+            └── CaptionLength_LSTM.png
 ```
 
 ## Virtual Envitronment Setup
@@ -62,4 +69,10 @@ In case need to remove the external kernel:
 - Image Augmentation
 - Remove unnecessary string on a caption
 - Remove extreme short and long caption
+
+## EDA
+### LSTM
+
+### Transformer
+
 
