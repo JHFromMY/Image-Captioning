@@ -100,7 +100,7 @@ In case need to remove the external kernel:
 ## Data Splitting
 |  | LSTM | Transformer |
 | :---: | :---: | :---: |
-| Train | 75% |  | 78% |
+| Train | 75% | 78% |
 | Validation | 15% | 20% |
 | Test | 10% | 2% |
 
