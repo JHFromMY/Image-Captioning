@@ -59,7 +59,7 @@ In case need to remove the external kernel:
 
 # 2_Model
 ## Data Cleaning
--Image Augmentation
--Remove unnecessary string on a caption
--Remove extreme short and long caption
+- Image Augmentation
+- Remove unnecessary string on a caption
+- Remove extreme short and long caption
 
