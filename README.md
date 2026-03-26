@@ -72,7 +72,9 @@ In case need to remove the external kernel:
 
 ## EDA
 ### LSTM
-![Screenshot](./SCreenshots/Dataset_LSTM.png)
+![Screenshot](./Screenshots/Dataset_LSTM.png)
+![Logo](Screenshots/Dataset_LSTM.png)
+![Logo](./Screenshots/Dataset_LSTM.png)
 
 ### Transformer
 
