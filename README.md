@@ -30,9 +30,9 @@ Downloads/
     ├── README.md
     └── Screenshots
             ├── CaptionLength_LSTM.png
-            ├── CaptionLength_Transfomer.png
+            ├── CaptionLength_Transformer.png
             ├── Dataset_LSTM.png
-            ├── Dataset_Transfomer.png
+            ├── Dataset_Transformer.png
             ├── WordOccurrences_LSTM.png
             └── WordOccurrences_Transformer.png
 ```
@@ -90,4 +90,10 @@ In case need to remove the external kernel:
 
 #### Word Occurrences
 ![Screenshot](./Screenshots/WordOccurrences_Transformer.png)
+
+## Data Splitting
+| Header 1 | Header 2 |
+| :---: | :---: |
+| Row 1, Col 1 | Row 1, Col 2 |
+| Row 2, Col 1 | Row 2, Col 2 |
 
