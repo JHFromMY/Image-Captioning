@@ -28,13 +28,13 @@ Downloads/
     |   └──Transformer
     |       └──ImageCaption30K_Transformer.ipynb
     ├── README.md
-    └── Screenshot
-            ├── WordOccurrences_Transformer.png
-            ├── Dataset_Transfomer.png
+    └── Screenshots
+            ├── CaptionLength_LSTM.png
             ├── CaptionLength_Transfomer.png
-            ├── WordOccurrences_LSTM.png
             ├── Dataset_LSTM.png
-            └── CaptionLength_LSTM.png
+            ├── Dataset_Transfomer.png
+            ├── WordOccurrences_LSTM.png
+            └── WordOccurrences_Transformer.png
 ```
 
 ## Virtual Envitronment Setup
@@ -72,6 +72,7 @@ In case need to remove the external kernel:
 
 ## EDA
 ### LSTM
+![Screenshot](./SCreenshots/Dataset_LSTM.png)
 
 ### Transformer
 
