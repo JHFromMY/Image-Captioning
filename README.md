@@ -117,8 +117,8 @@ In case need to remove the external kernel:
 ### LSTM
 #### Training
 At Final Epoch 45/100:
-Training loss: 3.4252
-Validation loss: 3.5931
+- Training loss: 3.4252
+- Validation loss: 3.5931
 
 ![Screenshot](./Screenshots/Training_LSTM.png)
 
@@ -139,10 +139,10 @@ Pros:
 ### Transformer
 #### Training
 At Final Epoch 9/30:
-Training loss: 13.2212 
-Training accuracy: 0.4367
-Validation loss: 13.5932 
-Validation Accuracy: 0.4087
+- Training loss: 13.2212 
+- Training accuracy: 0.4367
+- Validation loss: 13.5932 
+- Validation Accuracy: 0.4087
 
 ![Screenshot](./Screenshots/Training_Transformer.png)
 
