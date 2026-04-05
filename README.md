@@ -64,7 +64,7 @@ In case need to remove the external kernel:
 1. Open Anancoda Prompt
 2. To check available kernel to delete, ```jupyter kernelspec list```
 3. To remove kernel from Jupyter Notebook, ```jupyter kernelspec uninstall imagecaption```
-4. For clean up, remove the entire folder, ```C:\Users\User\anaconda3\envs\ImageCaption``` or ```conda remove --name FPP --all```
+4. For clean up, remove the entire folder, ```C:\Users\User\anaconda3\envs\ImageCaption``` or ```conda remove --name ImageCaption --all```
 
 
 # 1_Data
