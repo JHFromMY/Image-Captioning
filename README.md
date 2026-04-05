@@ -64,7 +64,8 @@ In case need to remove the external kernel:
 1. Open Anancoda Prompt
 2. To check available kernel to delete, ```jupyter kernelspec list```
 3. To remove kernel from Jupyter Notebook, ```jupyter kernelspec uninstall imagecaption```
-4. For clean up, remove the entire folder, ```C:\Users\User\anaconda3\envs\ImageCaption```
+4. For clean up, remove the entire folder, ```C:\Users\User\anaconda3\envs\ImageCaption``` or ```conda remove --name FPP --all```
+
 
 # 1_Data
 1. Flickr30k dataset (https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) for medium-sized image captioning
