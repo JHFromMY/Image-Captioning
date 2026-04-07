@@ -3,7 +3,7 @@ An application that help generate caption for a list of selected travel images s
 
 # 0_Setup
 ## Computer Selection
-Make sure your purchased computer had support GPU and native Window.
+Make sure your purchased computer had support GPU and native Window. For my case, I am using Window 11 device that support GPU (RTX 4060 with 8 RAM memory).
 
 ## Resources
 1. Install this github repository in your local device.
