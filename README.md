@@ -24,9 +24,9 @@ Downloads/
     │   └── results.csv
     ├── 2_Model/
     |   ├── LSTM
-    |   |   └──ImageCaption30K_LSTM.ipynb
+    |   |   └── ImageCaption30K_LSTM.ipynb
     |   └── Transformer
-    |       └──ImageCaption30K_Transformer.ipynb
+    |       └── ImageCaption30K_Transformer.ipynb
     ├── README.md
     └── Screenshots
             ├── CaptionLength_LSTM.png
@@ -65,7 +65,6 @@ In case need to remove the external kernel:
 2. To check available kernel to delete, ```jupyter kernelspec list```
 3. To remove kernel from Jupyter Notebook, ```jupyter kernelspec uninstall imagecaption```
 4. For clean up, remove the entire folder, ```C:\Users\User\anaconda3\envs\ImageCaption``` or ```conda remove --name ImageCaption --all```
-
 
 # 1_Data
 1. Flickr30k dataset (https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) for medium-sized image captioning
