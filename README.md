@@ -25,7 +25,7 @@ Downloads/
     ├── 2_Model/
     |   ├── LSTM
     |   |   └──ImageCaption30K_LSTM.ipynb
-    |   └──Transformer
+    |   └── Transformer
     |       └──ImageCaption30K_Transformer.ipynb
     ├── README.md
     └── Screenshots
